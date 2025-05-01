@@ -78,6 +78,40 @@
       "icon5": "90% colleges and universities acceptance rate",
       "icon6": "We understand it is not easy to live abroad, we are here to help students to get the best living experience",
       "why": "why"
+    },
+    "university": {
+      "title": "100+ University Partners",
+      "btn": "See all"
+    }
+  },
+  "contact": {
+    "contactFront": {
+      "heading": "Contact Us",
+      "subheading": "Need some guidance? We've got your back! Our team is eagerly waiting to assist you on your educational journey."
+    },
+    "subContact": {
+      "p1": "Leave your message, now! Our Consouler will get back to you as quickly as possible.",
+      "p2": "You can also visit our office to discuss more, ore we can visit you (Jabodetabek area only) for your convenience. Alternatively, we can arrange a video call via Zoom, Gmeet, or any digital platforms you like."
+    },
+    "from": {
+      "heading": "Send us a message",
+      "email": "Email",
+      "name": "Name",
+      "number": "Phone number",
+      "phonep": "Phone number/Whatsapp",
+      "message": "Message",
+      "messagep": "Let us know how we can help you?",
+      "btn": "Submit"
+    },
+    "location": {
+      "location1": "Whatsapp Canadian",
+      "number1": "+1 (226) 792 8584",
+      "location2": "Whatsapp Indonesian",
+      "number2": "+62 878-2066-7883",
+      "address1": "Canadian Address",
+      "address1sub": "Salak Education Consulting Kitchener, Ontario, Canada",
+      "address2": "Indonesian Address",
+      "address2sub": "Jl. Yasmin Raya no. 16 A, Bogor"
     }
   }
 }

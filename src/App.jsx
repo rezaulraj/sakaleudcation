@@ -1,4 +1,5 @@
 import { Routes, Route, useLocation } from "react-router-dom";
+import "./App.css";
 import { useEffect, useState } from "react";
 import NProgress from "nprogress";
 import "nprogress/nprogress.css";
@@ -6,7 +7,8 @@ import Layout from "./pages/components/Layout";
 import HomePage from "./pages/home/HomePage";
 import Services from "./pages/sevices/Services";
 import Contact from "./pages/contact/Contact";
-
+import ScrollToTop from "./pages/components/ScrollToTop";
+import { FloatingWhatsApp } from "react-floating-whatsapp";
 NProgress.configure({
   minimum: 0.3,
   easing: "ease",
@@ -57,13 +59,17 @@ function App() {
   }
 
   return (
-    <Routes location={location} key={location.key}>
-      <Route path="/" element={<Layout />}>
-        <Route index element={<HomePage />} />
-        <Route path="/services" element={<Services />} />
-        <Route path="/contact" element={<Contact />} />
-      </Route>
-    </Routes>
+    <div className="">
+      <ScrollToTop />
+      <Routes location={location} key={location.key}>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<HomePage />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/contact" element={<Contact />} />
+        </Route>
+      </Routes>
+      <FloatingWhatsApp />
+    </div>
   );
 }
 
