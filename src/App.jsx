@@ -9,6 +9,7 @@ import Services from "./pages/sevices/Services";
 import Contact from "./pages/contact/Contact";
 import ScrollToTop from "./pages/components/ScrollToTop";
 import { FloatingWhatsApp } from "react-floating-whatsapp";
+import { Toaster } from "react-hot-toast";
 NProgress.configure({
   minimum: 0.3,
   easing: "ease",
@@ -69,6 +70,7 @@ function App() {
         </Route>
       </Routes>
       <FloatingWhatsApp />
+      <Toaster />
     </div>
   );
 }
