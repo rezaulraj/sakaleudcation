@@ -164,7 +164,7 @@ const Header = () => {
                     {navigation.map((item, idx) => (
                       <li key={idx}>
                         <Link
-                          to={item.link}
+                          to={item.path}
                           className="block px-4 py-2 text-lg font-medium text-blue-dark rounded-lg transition-colors"
                           onClick={() => setIsMenuOpen(false)}
                         >
