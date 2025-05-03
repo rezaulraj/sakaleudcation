@@ -76,7 +76,7 @@ const Stats = () => {
         <div className="space-y-16 pl-8 md:pl-0">
           {steps.map((step, index) => (
             <div key={step.id} className="relative">
-              <div className="absolute left-0 md:left-1/2 top-1/2 w-6 h-6 bg-blue-500 rounded-full transform -translate-x-1/2 -translate-y-1/2 z-10"></div>
+              <div className="absolute left-0 md:left-1/2 top-1/2 w-6 h-6 bg-blue-dark rounded-full transform -translate-x-1/2 -translate-y-1/2 z-10"></div>
 
               <div className="md:hidden ml-8">
                 <div className="mb-4 overflow-hidden rounded-lg shadow-lg">

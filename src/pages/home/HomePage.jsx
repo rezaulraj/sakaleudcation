@@ -6,13 +6,15 @@ import img2 from "../../assets/home/Group_2.webp";
 import img3 from "../../assets/home/Group_3.webp";
 import img4 from "../../assets/home/Group_4.webp";
 import img5 from "../../assets/home/Group_5.webp";
-
+import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 import { BiSearch } from "react-icons/bi";
 import Stats from "./Stats";
 import Objective from "./Objective";
 import Universitys from "./Universitys";
 import Testimonial from "./Testimonial";
+import ProgramsTab from "./ProgramsTab";
+import Carusel from "./Carusel";
 const HomePage = () => {
   const { t } = useTranslation();
   const [activeTab, setActiveTab] = useState("tab1");
@@ -48,7 +50,7 @@ const HomePage = () => {
           <h2 className="text-lg md:text-xl lg:text-2xl font-bold text-white">
             {t("home.frontText.textsec")}
           </h2>
-          <button className="before:ease relative h-12 w-auto overflow-hidden border border-[#d01c1f] bg-[#d01c1f] text-white shadow-2xl transition-all before:absolute before:right-0 before:top-0 before:h-12 before:w-6 before:translate-x-12 before:rotate-6 before:bg-white before:opacity-10 before:duration-700 hover:shadow-gray-500 hover:before:-translate-x-40 uppercase rounded-xl px-7 py-3 tracking-wider cursor-pointer">
+          <button className="before:ease relative h-12 w-auto overflow-hidden border border-redest-dark bg-redest-dark text-white shadow-2xl transition-all before:absolute before:right-0 before:top-0 before:h-12 before:w-6 before:translate-x-12 before:rotate-6 before:bg-white before:opacity-10 before:duration-700 hover:shadow-gray-500 hover:before:-translate-x-40 uppercase rounded-xl px-7 py-3 tracking-wider cursor-pointer">
             <span relative="relative z-10 ">{t("home.frontText.btn")}</span>
           </button>
         </div>
@@ -71,7 +73,7 @@ const HomePage = () => {
               fill="none"
               width={"300px"}
               height={"6px"}
-              className="bg-[#d01c1f]"
+              className="bg-redest-dark"
             >
               <path d="M184.68 8.95006C169.95 1.68006 152.06 1.68006 137.32 8.95006C124.03 15.5101 107.9 15.5101 94.61 8.95006C79.88 1.68006 61.99 1.68006 47.25 8.95006C33.96 15.5101 17.83 15.5101 4.54 8.95006L1 7.43006"></path>
             </svg>
@@ -81,7 +83,7 @@ const HomePage = () => {
             <p className="text-lg font-medium text-gray-900 font-quicksand">
               {t("home.second.textp2")}
             </p>
-            <button className="before:ease relative h-12 w-[200px] overflow-hidden border border-[#d01c1f] bg-[#d01c1f] text-white shadow-2xl transition-all before:absolute before:right-0 before:top-0 before:h-12 before:w-6 before:translate-x-12 before:rotate-6 before:bg-white before:opacity-10 before:duration-700 hover:shadow-gray-500 hover:before:-translate-x-40 uppercase rounded-xl px-7 py-3 tracking-wider cursor-pointer">
+            <button className="before:ease relative h-12 w-[200px] overflow-hidden border border-redest-dark bg-redest-dark text-white shadow-2xl transition-all before:absolute before:right-0 before:top-0 before:h-12 before:w-6 before:translate-x-12 before:rotate-6 before:bg-white before:opacity-10 before:duration-700 hover:shadow-gray-500 hover:before:-translate-x-40 uppercase rounded-xl px-7 py-3 tracking-wider cursor-pointer">
               <span relative="relative z-10 ">{t("home.second.btn")}</span>
             </button>
           </div>
@@ -108,8 +110,8 @@ const HomePage = () => {
             <button
               className={`before:ease relative h-12 w-[200px] overflow-hidden border text-white shadow-2xl transition-all before:absolute before:right-0 before:top-0 before:h-12 before:w-6 before:translate-x-12 before:rotate-6 before:bg-white before:opacity-10 before:duration-700 hover:shadow-gray-500 hover:before:-translate-x-40 uppercase rounded-xl px-7 py-3 tracking-wider cursor-pointer font-bold ${
                 activeTab === "tab1"
-                  ? "bg-[#d01c1f] border-[#d01c1f]"
-                  : "bg-[#d4ba97] border-[#d4ba97] hover:text-gray-800/90"
+                  ? "bg-redest-dark border-redest-dark"
+                  : "bg-blue-dark border-[#d4ba97] hover:text-gray-800/90"
               }`}
               onClick={() => setActiveTab("tab1")}
             >
@@ -118,8 +120,8 @@ const HomePage = () => {
             <button
               className={`flex items-center gap-2 before:ease relative h-12 w-[200px] overflow-hidden border text-white shadow-2xl transition-all before:absolute before:right-0 before:top-0 before:h-12 before:w-6 before:translate-x-12 before:rotate-6 before:bg-white before:opacity-10 before:duration-700 hover:shadow-gray-500 hover:before:-translate-x-40 uppercase rounded-xl px-2 py-3 tracking-wider cursor-pointer font-bold ${
                 activeTab === "tab2"
-                  ? "bg-[#d01c1f] border-[#d01c1f]"
-                  : "bg-[#d4ba97] border-[#d4ba97] hover:text-gray-800/90"
+                  ? "bg-redest-dark border-redest-dark"
+                  : "bg-blue-dark border-[#d4ba97] hover:text-gray-800/90"
               }`}
               onClick={() => setActiveTab("tab2")}
             >
@@ -129,8 +131,8 @@ const HomePage = () => {
             <button
               className={`before:ease relative h-12 w-[200px] overflow-hidden border text-white shadow-2xl transition-all before:absolute before:right-0 before:top-0 before:h-12 before:w-6 before:translate-x-12 before:rotate-6 before:bg-white before:opacity-10 before:duration-700 hover:shadow-gray-500 hover:before:-translate-x-40 uppercase rounded-xl px-7 py-3 tracking-wider cursor-pointer font-bold ${
                 activeTab === "tab3"
-                  ? "bg-[#d01c1f] border-[#d01c1f]"
-                  : "bg-[#d4ba97] border-[#d4ba97] hover:text-gray-800/90"
+                  ? "bg-redest-dark border-redest-dark"
+                  : "bg-blue-dark border-[#d4ba97] hover:text-gray-800/90"
               }`}
               onClick={() => setActiveTab("tab3")}
             >
@@ -191,6 +193,10 @@ const HomePage = () => {
 
       <section className="bg-[#d4ba97] my-6">
         <Testimonial />
+      </section>
+      <ProgramsTab />
+      <section>
+        <Carusel />
       </section>
     </div>
   );

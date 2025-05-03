@@ -108,7 +108,7 @@ const Testimonial = () => {
 
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 gap-4 bg-[#d4ba97]">
-      <div className="bg-[#d01c1f] px-2 md:px-16 py-10 text-white space-y-8">
+      <div className="bg-redest-dark px-2 md:px-16 py-10 text-white space-y-8">
         <div className="space-y-4">
           <h3 className="text-2xl font-semibold font-quicksand tracking-widest">
             {t("home.testmoni.left.h1")}

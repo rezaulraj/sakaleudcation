@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 import { FaTimes } from "react-icons/fa";
 import { HiMiniBars3CenterLeft } from "react-icons/hi2";
 import { Link, useLocation } from "react-router-dom";
-import Logo from "../../assets/logo_salaked.avif";
+import Logo from "../../assets/logo.png";
 import { BiWorld } from "react-icons/bi";
 import { MdKeyboardArrowDown, MdKeyboardArrowUp } from "react-icons/md";
 
@@ -54,12 +54,12 @@ const Header = () => {
 
   return (
     <nav className="bg-white w-full">
-      <div className="hidden md:block bg-gradient-to-l from-[#d01c1f] to-[#d4ba97] w-full">
+      <div className="bg-gradient-to-l from-redest-dark to-blue-dark w-full">
         <p className="py-2 font-medium text-white text-center">
           {t("banner.btext")}
         </p>
       </div>
-      <div className="flex items-center justify-between max-w-screen-xl mx-auto py-4 px-4">
+      <div className="flex items-center justify-between max-w-screen-xl mx-auto px-4">
         <button
           className="inline-flex md:hidden text-gray-800 hover:text-red-600"
           onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -71,7 +71,7 @@ const Header = () => {
           )}
         </button>
         <Link to="/" className="flex items-center justify-center">
-          <img src={Logo} alt="sakaled" className="h-12" />
+          <img src={Logo} alt="sakaled" className="w-22" />
         </Link>
         <div className="relative hidden sm:block ">
           <button
@@ -100,7 +100,7 @@ const Header = () => {
                   key={language.code}
                   className={`block w-full text-left px-2 py-1 hover:bg-gray-100 rounded ${
                     currentLanguage === language.code
-                      ? "font-bold text-red-600"
+                      ? "font-bold text-redest-dark"
                       : ""
                   }`}
                   onClick={() => changeLanguage(language.code)}
@@ -124,8 +124,8 @@ const Header = () => {
                   to={item.path}
                   className={`text-lg font-medium text-[16px] transition-colors tracking-widest font-quicksand${
                     location.pathname === item.path
-                      ? "text-red-600 border-b-2 border-red-600"
-                      : "text-gray-800 hover:text-gray-600 hover:border-b-2 hover:border-red-500 duration-300"
+                      ? "text-gray-800 border-b-2 border-redest-dark"
+                      : "text-redest-dark hover:text-redest-dark hover:border-b-2 hover:border-redest-dark duration-300"
                   }`}
                 >
                   {item.title}
@@ -152,7 +152,7 @@ const Header = () => {
                 {/* Menu Header */}
 
                 <button
-                  className="text-white bg-gray-400 hover:text-gray-800 absolute top-1 -right-8 bg-blue-dark text rounded-full p-1 "
+                  className="text-white hover:text-gray-800 absolute top-1 -right-8 bg-blue-dark text rounded-full p-1 "
                   onClick={() => setIsMenuOpen(false)}
                 >
                   <FaTimes className="w-8 h-8" />

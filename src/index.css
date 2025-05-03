@@ -8,6 +8,11 @@
   --font-oswald: Oswald, sans-serif;
   --font-quicksand: Quicksand, sans-serif;
 }
+
+@theme {
+  --color-blue-dark: #26587d;
+  --color-redest-dark: #e65a25;
+}
 * {
   scroll-behavior: smooth;
   scrollbar-color: #ecf0f7 #1a519e;

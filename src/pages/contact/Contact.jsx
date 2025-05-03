@@ -188,7 +188,7 @@ const Contact = () => {
 
               <button
                 type="submit"
-                className="bg-red-400 text-white px-5 py-2 rounded-md hover:bg-red-400/90 font-bold font-quicksand hover:shadow-md cursor-pointer"
+                className="bg-redest-dark text-white px-5 py-2 rounded-md hover:bg-red-400/90 font-bold font-quicksand hover:shadow-md cursor-pointer"
               >
                 {loading ? (
                   <TbLoader className="animate-spin w-4 h-4" />

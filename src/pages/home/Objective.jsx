@@ -5,7 +5,7 @@ import { FaGraduationCap } from "react-icons/fa";
 import { FaMapLocationDot } from "react-icons/fa6";
 import { GiSchoolBag, GiTeacher } from "react-icons/gi";
 import { MdCrisisAlert } from "react-icons/md";
-import logo from "../../assets/logo_salaked.avif";
+import logo from "../../assets/logo.png";
 
 const Objective = () => {
   const { t } = useTranslation();
@@ -57,10 +57,10 @@ const Objective = () => {
             {features.map((feature, index) => (
               <div
                 key={index}
-                className="bg-white p-6 rounded-xl shadow-sm hover:shadow-md hover:scale-105 cursor-pointer transition-all duration-300 border-l-4 border-[#d01c1f] "
+                className="bg-white p-6 rounded-xl shadow-sm hover:shadow-md hover:scale-105 cursor-pointer transition-all duration-300 border-l-4 border-redest-dark "
               >
                 <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-14 h-14 bg-[#d01c1f] rounded-full flex items-center justify-center text-white">
+                  <div className="flex-shrink-0 w-14 h-14 bg-redest-dark rounded-full flex items-center justify-center text-white">
                     {feature.icon}
                   </div>
                   <p className="text-lg font-medium text-gray-800 font-poppins mt-1">

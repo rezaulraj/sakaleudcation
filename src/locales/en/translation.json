@@ -89,6 +89,97 @@
         "hb2": "Everything you need to make your decision",
         "p1": "High demand university and college in Canada, we make it easy for you to compare them to make your decision."
       }
+    },
+    "program": {
+      "ph1": "More Than 1000 Programs to Choose From",
+      "engineering": {
+        "h1": "Engineering & Technology",
+        "el1": "Aviation, Aero Space and Pilot Technology",
+        "el2": "Agriculture",
+        "el3": "Architecture",
+        "el4": "Biomedical Engineering",
+        "el5": "Chemical Engineering",
+        "el6": "Civil Engineering, Construction",
+        "el7": "Electrical Engineering",
+        "el8": "Electronic",
+        "el9": "Environmental Engineering",
+        "el10": "Game design, Game Animation, Game Creation",
+        "el11": "Industrial",
+        "el12": "Material Engineering",
+        "el13": "Mechanical, Manufacturing, Robotic Engineering",
+        "el14": "Radiography",
+        "el15": "Technology, Software, Computer, IT"
+      },
+      "science": {
+        "h1": "Science",
+        "sl1": "Astronomy",
+        "sl2": "Biochemistry",
+        "sl3": "Biology",
+        "sl4": "Chemistry",
+        "sl5": "Computer Science",
+        "sl6": "Dental",
+        "sl7": "Environmental, Earth Science",
+        "sl8": "Food, Nutrition, Exercise",
+        "sl9": "Geology",
+        "sl10": "Humanitarian Sciences",
+        "sl11": "Mathematics",
+        "sl12": "Optometry",
+        "sl13": "Pharmacy",
+        "sl14": "Physics",
+        "sl15": "Political",
+        "sl16": "Psychology, Philosophy, Therapy",
+        "sl17": "Veterinarian"
+      },
+      "arts": {
+        "h1": "Arts",
+        "al1": "Animation",
+        "al2": "Anthropology",
+        "al3": "Communication",
+        "al4": "English Literature",
+        "al5": "Fashion, Esthetics",
+        "al6": "Fine Arts",
+        "al7": "Food & Culinary",
+        "al8": "Gender Studies",
+        "al9": "Geography",
+        "al10": "Graphic Design, Interior Design",
+        "al11": "History",
+        "al12": "Language",
+        "al13": "Journalism",
+        "al14": "Liberal Arts",
+        "al15": "Media, Photography, Film, Theatre, Performance",
+        "al16": "Music, Audio",
+        "al17": "Planning (Urban)",
+        "al18": "Religion",
+        "al19": "Sociology"
+      },
+      "busness": {
+        "h1": "Business, Management & Economics",
+        "al1": "Accounting",
+        "al2": "Entrepreneurship",
+        "al3": "Finance, Economics",
+        "al4": "Hospitality and Tourism",
+        "al5": "Human Resources",
+        "al6": "International Business",
+        "al7": "Management, Administration",
+        "al8": "Marketing",
+        "al9": "Analyst",
+        "al10": "Advertising",
+        "al11": "Public Relation",
+        "al12": "Supply Chain"
+      },
+      "health": {
+        "h1": "Health Science & Nurse",
+        "al1": "Health Science",
+        "al2": "Medicine",
+        "al3": "Nursing",
+        "al4": "Paramedic",
+        "al5": "Kinesiology"
+      },
+      "social": {
+        "h1": "Community, Social Service",
+        "al1": "Law, Politics, Police, Security",
+        "al2": "Teaching, Early Development, Child Care"
+      }
     }
   },
   "contact": {
