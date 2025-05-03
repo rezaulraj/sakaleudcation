@@ -40,7 +40,7 @@ function App() {
 
   useEffect(() => {
     NProgress.start();
-    const timer = setTimeout(() => NProgress.done(), 500);
+    const timer = setTimeout(() => NProgress.done(), 1000);
     return () => clearTimeout(timer);
   }, [location]);
 

@@ -82,6 +82,13 @@
     "university": {
       "title": "100+ University Partners",
       "btn": "See all"
+    },
+    "testmoni": {
+      "left": {
+        "h1": "CHOOSE YOUR SCHOOL",
+        "hb2": "Everything you need to make your decision",
+        "p1": "High demand university and college in Canada, we make it easy for you to compare them to make your decision."
+      }
     }
   },
   "contact": {

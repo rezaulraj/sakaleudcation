@@ -12,6 +12,7 @@ import { BiSearch } from "react-icons/bi";
 import Stats from "./Stats";
 import Objective from "./Objective";
 import Universitys from "./Universitys";
+import Testimonial from "./Testimonial";
 const HomePage = () => {
   const { t } = useTranslation();
   const [activeTab, setActiveTab] = useState("tab1");
@@ -186,6 +187,10 @@ const HomePage = () => {
 
       <section>
         <Universitys />
+      </section>
+
+      <section className="bg-[#d4ba97] my-6">
+        <Testimonial />
       </section>
     </div>
   );

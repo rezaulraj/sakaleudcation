@@ -2,6 +2,7 @@ import React from "react";
 import service1 from "../../assets/sevices/sb2.webp";
 import service2 from "../../assets/sevices/sb3.webp";
 import service3 from "../../assets/sevices/Studying-Abroad.webp";
+import Testimonial from "../home/Testimonial";
 const Services = () => {
   return (
     <div className="">
@@ -88,6 +89,7 @@ const Services = () => {
           </div>
         </div>
       </div>
+      <Testimonial />
     </div>
   );
 };
