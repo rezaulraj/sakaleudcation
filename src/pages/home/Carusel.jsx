@@ -6,55 +6,43 @@ const Carusel = () => {
       avatar: "https://api.uifaces.co/our-content/donated/xZ4wg2Xj.jpg",
       name: "Martin Escobar",
       quote:
-        "Terima kasih Salak Ed untuk bantuannya memilih program insurance diploma di Conestoga College dengan kemungkinan co-op. Program-nya terbukti berkualitas dan menempatkan saya di posisi berkemungkinan sukses paling tinggi diantara program lain dan kampus lain",
+        "I’m so grateful to A4 Admission for providing such tailored advice. They didn’t just suggest random universities, they carefully listened to my goals and recommended options that actually made sense for my future. Truly exceptional service,",
     },
     {
       avatar: "https://randomuser.me/api/portraits/women/79.jpg",
       name: "Angela Stian",
       quote:
-        "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout, that the point of using Lorem Ipsum.",
+        "The entire process from document prep to visa guidance was handled with such professionalism. A4 Admission made something that felt overwhelming become so simple and organized.",
     },
     {
       avatar: "https://randomuser.me/api/portraits/men/86.jpg",
       name: "Karim Ahmed",
       quote:
-        "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati ",
+        "The visa application process can be scary, but A4 Admission made sure I was well-prepared for everything—from paperwork to the interview. I got my visa on the first try.",
     },
     {
       avatar: "https://randomuser.me/api/portraits/women/45.jpg",
       name: "Sophie Müller",
       quote:
-        "Thanks to the support team for their assistance. The application process was clear and smooth!",
+        "Every step with A4 Admission felt smooth and well-coordinated. From my first consultation to booking my flight, they handled everything with complete professionalism.",
     },
     {
       avatar: "https://randomuser.me/api/portraits/men/34.jpg",
       name: "David Zhang",
       quote:
-        "This platform really helped me understand my options better and gave me the confidence to proceed.",
+        "They didn’t just stop after submitting my application. A4 Admission helped with my accommodation, travel, and even a pre-departure session. That extra care made me feel really supported.",
     },
     {
       avatar: "https://randomuser.me/api/portraits/women/62.jpg",
       name: "Fatima Noor",
       quote:
-        "Great experience! The team was professional and very responsive throughout my journey.",
+        "What I received from A4 Admission was far beyond what I expected. Their services are worth every penny quality guidance, prompt communication, and genuine care throughout.",
     },
     {
       avatar: "https://randomuser.me/api/portraits/men/71.jpg",
       name: "Lucas Green",
       quote:
-        "I couldn’t have asked for a better service. Everything was well organized and on time.",
-    },
-    {
-      avatar: "https://randomuser.me/api/portraits/women/12.jpg",
-      name: "Isabella Rossi",
-      quote:
-        "Their guidance helped me choose the perfect program aligned with my career goals.",
-    },
-    {
-      avatar: "https://randomuser.me/api/portraits/men/53.jpg",
-      name: "Mohammad Ali",
-      quote:
-        "From start to finish, the support was incredible. Highly recommend them to anyone planning to study abroad.",
+        "Unlike other agencies, A4 Admission felt personal. They truly cared about my journey and success. I felt like more than just a client, I felt valued.",
     },
   ];
 

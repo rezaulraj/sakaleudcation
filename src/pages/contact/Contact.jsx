@@ -4,6 +4,7 @@ import { useTranslation } from "react-i18next";
 import toast from "react-hot-toast";
 import { LuLoader } from "react-icons/lu";
 import { TbLoader } from "react-icons/tb";
+import { FaArrowRight } from "react-icons/fa6";
 const Contact = () => {
   const { t } = useTranslation();
   const [name, setName] = useState("");
@@ -89,7 +90,7 @@ const Contact = () => {
                   value={name}
                   onChange={(e) => setName(e.target.value)}
                   onBlur={() => setNameTouched(true)}
-                  placeholder={t("contact.from.name")}
+                  placeholder={t("contact.from.namep")}
                   className={`w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 ${
                     isNameInvalid
                       ? "border-red-500 focus:ring-red-400"
@@ -115,7 +116,7 @@ const Contact = () => {
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   onBlur={() => setEmailTouched(true)}
-                  placeholder={t("contact.from.email")}
+                  placeholder={t("contact.from.emailp")}
                   className={`w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 ${
                     isEmailInvalid
                       ? "border-red-500 focus:ring-red-400"
@@ -188,12 +189,15 @@ const Contact = () => {
 
               <button
                 type="submit"
-                className="bg-redest-dark text-white px-5 py-2 rounded-md hover:bg-red-400/90 font-bold font-quicksand hover:shadow-md cursor-pointer"
+                className="bg-redest-dark text-white px-5 py-2 rounded-md hover:bg-red-500/90 font-bold font-quicksand hover:shadow-md cursor-pointer"
               >
                 {loading ? (
                   <TbLoader className="animate-spin w-4 h-4" />
                 ) : (
-                  "Submit"
+                  <span className="flex items-center gap-2">
+                    {t("contact.from.btn")}{" "}
+                    <FaArrowRight className="animate-pulse" />
+                  </span>
                 )}
               </button>
             </form>

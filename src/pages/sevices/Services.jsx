@@ -15,23 +15,20 @@ const Services = () => {
             <img src={service3} alt="" />
             <div className="">
               <h2 className="text-xl text-gray-800 font-bold font-quicksand">
-                Study Abroad
+                Study Abroad Support
               </h2>
               <ul className="px-4" style={{ listStyleType: "square" }}>
                 <li className="marker:text-gray-500 font-quicksand font-medium text-lg">
-                  Education consulting
+                  Expert education consulting
                 </li>
                 <li className="marker:text-gray-500 font-quicksand font-medium text-lg">
-                  School application process
+                  Help with school & visa applications*
                 </li>
                 <li className="marker:text-gray-500 font-quicksand font-medium text-lg">
-                  Visa application assistance*
+                  Custodian arrangements*
                 </li>
                 <li className="marker:text-gray-500 font-quicksand font-medium text-lg">
-                  Custodian application*
-                </li>
-                <li className="marker:text-gray-500 font-quicksand font-medium text-lg">
-                  On-boarding assistance
+                  Pre-arrival & onboarding assistance
                 </li>
               </ul>
             </div>
@@ -40,29 +37,20 @@ const Services = () => {
             <img src={service1} alt="" />
             <div className="">
               <h2 className="text-xl text-gray-800 font-bold font-quicksand">
-                Settlement Assistance Service
+                Settlement Services
               </h2>
               <ul className="px-4" style={{ listStyleType: "square" }}>
                 <li className="marker:text-gray-500 font-quicksand font-medium text-lg">
-                  Airport pick-up
+                  Airport pickup & housing support
                 </li>
                 <li className="marker:text-gray-500 font-quicksand font-medium text-lg">
-                  Accomodation service
+                  Bank account & SIM setup
                 </li>
                 <li className="marker:text-gray-500 font-quicksand font-medium text-lg">
-                  Set-up bank account
+                  SIN registration & bus pass help
                 </li>
                 <li className="marker:text-gray-500 font-quicksand font-medium text-lg">
-                  Set-up phone/ data plan
-                </li>
-                <li className="marker:text-gray-500 font-quicksand font-medium text-lg">
-                  Set-up social security number (SIN)
-                </li>
-                <li className="marker:text-gray-500 font-quicksand font-medium text-lg">
-                  Bus pass purchase
-                </li>
-                <li className="marker:text-gray-500 font-quicksand font-medium text-lg">
-                  Initial grocery assistance
+                  Grocery assistance upon arrival
                 </li>
               </ul>
             </div>
@@ -71,18 +59,17 @@ const Services = () => {
             <img src={service2} alt="" />
             <div className="">
               <h2 className="text-xl text-gray-800 font-bold font-quicksand">
-                Career Coach Service
+                Career Coaching
               </h2>
               <ul className="px-4" style={{ listStyleType: "square" }}>
                 <li className="marker:text-gray-500 font-quicksand font-medium text-lg">
-                  Mentorship program to guide you to land your job in Canada
-                  (part-time and/or full time)
+                  Mentorship for job search (part-time/full-time)
                 </li>
                 <li className="marker:text-gray-500 font-quicksand font-medium text-lg">
-                  Partner with HR professional to provide 1-on-1 career
-                  mentoring such as resume builder, job searching guidance,
-                  networking assistance, interview preparation, on-boarding
-                  preparation, work contract review.
+                  1-on-1 HR guidance (resume, job hunt, networking)
+                </li>
+                <li className="marker:text-gray-500 font-quicksand font-medium text-lg">
+                  Interview prep & contract review
                 </li>
               </ul>
             </div>

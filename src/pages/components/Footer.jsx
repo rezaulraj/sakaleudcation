@@ -16,7 +16,7 @@ import { Link } from "react-router-dom";
 import logo from "../../assets/logo.png";
 const Footer = () => {
   return (
-    <div className="bg-redest-dark/5 ">
+    <div className="bg-gray-100 ">
       <div className="py-8 border-b border-gray-50 max-w-screen-xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
           <div className="col-span-1 flex flex-col items-center gap-6">
