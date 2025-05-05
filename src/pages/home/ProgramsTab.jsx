@@ -96,6 +96,9 @@ const ProgramsTab = () => {
   const socialList = [
     { list: t("home.program.social.al1") },
     { list: t("home.program.social.al2") },
+    { list: t("home.program.social.al3") },
+    { list: t("home.program.social.al4") },
+    { list: t("home.program.social.al5") },
   ];
 
   return (
