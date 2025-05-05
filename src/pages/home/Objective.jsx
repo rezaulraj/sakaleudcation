@@ -41,14 +41,14 @@ const Objective = () => {
       <div className="flex flex-col md:flex-row gap-8 md:gap-12">
         {/* Left Column - Why SALAK ED */}
         <div className="md:w-1/3 flex flex-col items-center md:items-start md:sticky md:top-4 md:self-start">
-          <h2 className="font-bold text-4xl md:text-5xl font-quicksand mb-4 text-gray-900">
-            WHY
-          </h2>
           <img
             src={logo}
             alt="SALAK ED logo"
-            className="h-auto w-48 md:w-64 object-contain"
+            className="h-auto w-48 md:w-48 object-contain"
           />
+          <h2 className="font-bold text-2xl md:text-3xl font-quicksand mb-4 text-gray-900">
+            Why Choose A4 Admission?
+          </h2>
         </div>
 
         {/* Right Column - Features Grid */}

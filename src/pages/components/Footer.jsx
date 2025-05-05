@@ -66,7 +66,7 @@ const Footer = () => {
                 Salak Education Consulting Kitchener, Ontario, Canada
               </p>
             </Link>
-            <Link className="flex items-center gap-2 hover:text-redest-dark text-gray-700 font-poppins transition-colors duration-200 cursor-pointer">
+            {/* <Link className="flex items-center gap-2 hover:text-redest-dark text-gray-700 font-poppins transition-colors duration-200 cursor-pointer">
               <FaWhatsappSquare />
 
               <p className="font-poppins">+62 878-2066-7883</p>
@@ -75,13 +75,13 @@ const Footer = () => {
               <FaWhatsappSquare />
 
               <p className="font-poppins">+4407943642473</p>
-            </Link>
+            </Link> */}
             <a
               href="mailto:contact@aladdingroup.online"
               className="flex items-center gap-2 hover:text-blue-400 text-redest-dark font-poppins transition-colors duration-200"
             >
               <IoMail />
-              contact@salaked.online
+              contact@a4admission.com
             </a>
           </div>
           <div className="col-span-1 flex flex-col gap-3 p-2">

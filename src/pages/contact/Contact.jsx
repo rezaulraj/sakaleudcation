@@ -67,11 +67,25 @@ const Contact = () => {
 
       <section className="bg-white p-2">
         <div className="space-y-2 max-w-screen-xl md:ml-10 mt-8">
-          <p className="text-xl text-gray-800 font-bold font-quicksand">
+          <p className="text-lg text-gray-900 font-quicksand">
             {t("contact.subContact.p1")}
           </p>
-          <p className="text-xl text-gray-700 font-bold font-quicksand mx-auto">
+        </div>
+        <p className="max-w-screen-xl md:ml-10 mt-4 text-lg text-gray-900 font-quicksand">
+          {t("contact.subContact.p2")}
+        </p>
+        <div className="max-w-screen-xl md:ml-10 mt-8">
+          <p className="text-xl text-gray-800 font-semibold font-quicksand mx-auto">
+            {t("contact.subContact.p3")}
+          </p>
+          <p className="text-lg text-gray-800 font-quicksand mx-auto">
             {t("contact.subContact.p2")}
+          </p>
+          <p className="text-xl text-gray-800 font-semibold font-quicksand mx-auto">
+            {t("contact.subContact.p4")}
+          </p>
+          <p className="text-lg text-gray-700 font-quicksand mx-auto">
+            {t("contact.subContact.p5")}
           </p>
         </div>
         <h1 className="text-5xl text-gray-800 font-bold text-center font-quicksand mx-auto py-6">
@@ -107,7 +121,7 @@ const Contact = () => {
 
               <div className="space-y-2">
                 <label className="block text-gray-700 mb-1" htmlFor="email">
-                  {t("contact.from.email")}{" "}
+                  {t("contact.from.email")}
                   <span className="text-red-500">*</span>
                 </label>
                 <input
@@ -202,8 +216,8 @@ const Contact = () => {
               </button>
             </form>
           </div>
-          <div className="col-span-2 space-y-4">
-            <div className="space-y-3">
+          <div className="col-span-2 space-y-4 flex flex-col items-center justify-center">
+            {/* <div className="space-y-3">
               <h2 className="text-2xl text-gray-800 font-bold font-quicksand mx-auto py-2">
                 {t("contact.location.location2")}
               </h2>
@@ -218,16 +232,16 @@ const Contact = () => {
               <p className="text-lg text-gray-700 font-medium font-quicksand">
                 {t("contact.location.number1")}
               </p>
-            </div>
-            <div className="space-y-3">
-              <h2 className="text-2xl text-gray-800 font-bold font-quicksand mx-auto py-2">
+            </div> */}
+            <div className="space-y-3 text-center">
+              <h2 className="text-2xl text-gray-800 font-bold font-quicksand py-2">
                 {t("contact.location.address1")}
               </h2>
               <p className="text-lg text-gray-700 font-medium font-quicksand">
                 {t("contact.location.address1sub")}
               </p>
             </div>
-            <div className="space-y-3">
+            <div className="space-y-3 text-center">
               <h2 className="text-2xl text-gray-800 font-bold font-quicksand mx-auto py-2">
                 {t("contact.location.address2")}
               </h2>

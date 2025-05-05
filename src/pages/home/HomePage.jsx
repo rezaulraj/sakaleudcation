@@ -15,7 +15,9 @@ import Universitys from "./Universitys";
 import Testimonial from "./Testimonial";
 import ProgramsTab from "./ProgramsTab";
 import Carusel from "./Carusel";
-import { FaArrowRight } from "react-icons/fa";
+import { FaArrowRight, FaPlaneDeparture } from "react-icons/fa";
+import { GiPathDistance } from "react-icons/gi";
+import { GrServices } from "react-icons/gr";
 const HomePage = () => {
   const { t } = useTranslation();
   const [activeTab, setActiveTab] = useState("tab1");
@@ -120,9 +122,13 @@ const HomePage = () => {
               }`}
               onClick={() => setActiveTab("tab1")}
             >
-              {t("home.third.btn1")}
+              <span className="flex items-center gap-2">
+                <FaPlaneDeparture className="animate-pulse" />
+
+                {t("home.third.btn1")}
+              </span>{" "}
             </button>
-            <button
+            {/* <button
               className={`flex items-center gap-2 before:ease relative h-12 w-[200px] overflow-hidden border text-white shadow-2xl transition-all before:absolute before:right-0 before:top-0 before:h-12 before:w-6 before:translate-x-12 before:rotate-6 before:bg-white before:opacity-10 before:duration-700 hover:shadow-gray-500 hover:before:-translate-x-40 uppercase rounded-xl px-2 py-3 tracking-wider cursor-pointer font-bold ${
                 activeTab === "tab2"
                   ? "bg-redest-dark border-redest-dark"
@@ -132,7 +138,7 @@ const HomePage = () => {
             >
               <BiSearch />
               {t("home.third.btn2")}
-            </button>
+            </button> */}
             <button
               className={`before:ease relative h-12 w-[200px] overflow-hidden border text-white shadow-2xl transition-all before:absolute before:right-0 before:top-0 before:h-12 before:w-6 before:translate-x-12 before:rotate-6 before:bg-white before:opacity-10 before:duration-700 hover:shadow-gray-500 hover:before:-translate-x-40 uppercase rounded-xl px-7 py-3 tracking-wider cursor-pointer font-bold ${
                 activeTab === "tab3"
@@ -141,7 +147,10 @@ const HomePage = () => {
               }`}
               onClick={() => setActiveTab("tab3")}
             >
-              {t("home.third.btn3")}
+              <span className="flex items-center gap-2">
+                {t("home.third.btn3")}
+                <GrServices  className="animate-spin"/>
+              </span>
             </button>
           </div>
 
