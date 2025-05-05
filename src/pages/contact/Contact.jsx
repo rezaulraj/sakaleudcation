@@ -49,7 +49,7 @@ const Contact = () => {
   };
 
   return (
-    <div>
+    <div className="mb-10">
       <section
         className="bg-cover bg-center py-16 px-2 h-auto sm:min-h-screen relative flex items-center justify-center"
         style={{ backgroundImage: `url(${frontImge})` }}
@@ -216,7 +216,7 @@ const Contact = () => {
               </button>
             </form>
           </div>
-          <div className="col-span-2 space-y-4 flex flex-col items-center justify-center">
+          <div className="col-span-2 space-y-4 mt-5">
             {/* <div className="space-y-3">
               <h2 className="text-2xl text-gray-800 font-bold font-quicksand mx-auto py-2">
                 {t("contact.location.location2")}
@@ -233,7 +233,7 @@ const Contact = () => {
                 {t("contact.location.number1")}
               </p>
             </div> */}
-            <div className="space-y-3 text-center">
+            <div className="space-y-3">
               <h2 className="text-2xl text-gray-800 font-bold font-quicksand py-2">
                 {t("contact.location.address1")}
               </h2>
@@ -241,7 +241,7 @@ const Contact = () => {
                 {t("contact.location.address1sub")}
               </p>
             </div>
-            <div className="space-y-3 text-center">
+            <div className="space-y-3">
               <h2 className="text-2xl text-gray-800 font-bold font-quicksand mx-auto py-2">
                 {t("contact.location.address2")}
               </h2>

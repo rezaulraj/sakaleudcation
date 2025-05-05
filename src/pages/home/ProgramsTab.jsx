@@ -121,7 +121,7 @@ const ProgramsTab = () => {
         </div>
         <div className="flex flex-wrap items-center justify-center gap-8">
           <button
-            className={`flex items-center justify-center gap-2 before:ease relative w-[300px] h-20 overflow-hidden border text-white shadow-2xl transition-all before:absolute before:right-0 before:top-0 before:h-12 before:w-6 before:translate-x-12 before:rotate-6 before:bg-white before:opacity-10 before:duration-700 hover:shadow-gray-500 hover:before:-translate-x-40 uppercase rounded-xl px-7 py-3 tracking-wider cursor-pointer font-bold ${
+            className={`flex items-center justify-center gap-2 before:ease relative w-[300px] h-20 overflow-hidden border text-white shadow-2xl transition-all before:absolute before:right-0 before:top-0 before:h-20 before:w-6 before:translate-x-12 before:rotate-6 before:bg-white before:opacity-10 before:duration-700 hover:shadow-gray-500 hover:before:-translate-x-80 uppercase rounded-xl px-7 py-3 tracking-wider cursor-pointer font-bold ${
               activeTab === "tab1"
                 ? "bg-redest-dark border-redest-dark"
                 : "bg-blue-dark border-[#d4ba97] hover:text-gray-800/90"
@@ -132,7 +132,7 @@ const ProgramsTab = () => {
             {t("home.program.engineering.h1")}
           </button>
           <button
-            className={`flex items-center justify-center gap-2 before:ease relative w-[300px] h-20 overflow-hidden border text-white shadow-2xl transition-all before:absolute before:right-0 before:top-0 before:h-12 before:w-6 before:translate-x-12 before:rotate-6 before:bg-white before:opacity-10 before:duration-700 hover:shadow-gray-500 hover:before:-translate-x-40 uppercase rounded-xl px-2 py-3 tracking-wider cursor-pointer font-bold ${
+            className={`flex items-center justify-center gap-2 before:ease relative w-[300px] h-20 overflow-hidden border text-white shadow-2xl transition-all before:absolute before:right-0 before:top-0 before:h-20 before:w-6 before:translate-x-12 before:rotate-6 before:bg-white before:opacity-10 before:duration-700 hover:shadow-gray-500 hover:before:-translate-x-80 uppercase rounded-xl px-2 py-3 tracking-wider cursor-pointer font-bold ${
               activeTab === "tab2"
                 ? "bg-redest-dark border-redest-dark"
                 : "bg-blue-dark border-[#d4ba97] hover:text-white/90"
@@ -144,7 +144,7 @@ const ProgramsTab = () => {
             {t("home.program.science.h1")}
           </button>
           <button
-            className={`flex items-center justify-center gap-2 before:ease relative w-[300px] h-20 overflow-hidden border text-white shadow-2xl transition-all before:absolute before:right-0 before:top-0 before:h-12 before:w-6 before:translate-x-12 before:rotate-6 before:bg-white before:opacity-10 before:duration-700 hover:shadow-gray-500 hover:before:-translate-x-40 uppercase rounded-xl px-7 py-3 tracking-wider cursor-pointer font-bold ${
+            className={`flex items-center justify-center gap-2 before:ease relative w-[300px] h-20 overflow-hidden border text-white shadow-2xl transition-all before:absolute before:right-0 before:top-0 before:h-20 before:w-6 before:translate-x-12 before:rotate-6 before:bg-white before:opacity-10 before:duration-700 hover:shadow-gray-500 hover:before:-translate-x-80 uppercase rounded-xl px-7 py-3 tracking-wider cursor-pointer font-bold ${
               activeTab === "tab3"
                 ? "bg-redest-dark border-redest-dark"
                 : "bg-blue-dark border-[#d4ba97] hover:text-gray-800/90"
@@ -156,7 +156,7 @@ const ProgramsTab = () => {
             {t("home.program.arts.h1")}
           </button>
           <button
-            className={`flex items-center justify-center gap-2 before:ease relative w-[300px] h-20 overflow-hidden border text-white shadow-2xl transition-all before:absolute before:right-0 before:top-0 before:h-12 before:w-6 before:translate-x-12 before:rotate-6 before:bg-white before:opacity-10 before:duration-700 hover:shadow-gray-500 hover:before:-translate-x-40 uppercase rounded-xl px-7 py-3 tracking-wider cursor-pointer font-bold ${
+            className={`flex items-center justify-center gap-2 before:ease relative w-[300px] h-20 overflow-hidden border text-white shadow-2xl transition-all before:absolute before:right-0 before:top-0 before:h-20 before:w-6 before:translate-x-12 before:rotate-6 before:bg-white before:opacity-10 before:duration-700 hover:shadow-gray-500 hover:before:-translate-x-80 uppercase rounded-xl px-7 py-3 tracking-wider cursor-pointer font-bold ${
               activeTab === "tab4"
                 ? "bg-redest-dark border-redest-dark"
                 : "bg-blue-dark border-[#d4ba97] hover:text-gray-800/90"
@@ -168,7 +168,7 @@ const ProgramsTab = () => {
             {t("home.program.busness.h1")}
           </button>
           <button
-            className={`flex items-center justify-center gap-2 before:ease relative w-[300px] h-20 overflow-hidden border text-white shadow-2xl transition-all before:absolute before:right-0 before:top-0 before:h-12 before:w-6 before:translate-x-12 before:rotate-6 before:bg-white before:opacity-10 before:duration-700 hover:shadow-gray-500 hover:before:-translate-x-40 uppercase rounded-xl px-7 py-3 tracking-wider cursor-pointer font-bold ${
+            className={`flex items-center justify-center gap-2 before:ease relative w-[300px] h-20 overflow-hidden border text-white shadow-2xl transition-all before:absolute before:right-0 before:top-0 before:h-20 before:w-6 before:translate-x-12 before:rotate-6 before:bg-white before:opacity-10 before:duration-700 hover:shadow-gray-500 hover:before:-translate-x-80 uppercase rounded-xl px-7 py-3 tracking-wider cursor-pointer font-bold ${
               activeTab === "tab5"
                 ? "bg-redest-dark border-redest-dark"
                 : "bg-blue-dark border-[#d4ba97] hover:text-gray-800/90"
@@ -180,7 +180,7 @@ const ProgramsTab = () => {
             {t("home.program.health.h1")}
           </button>
           <button
-            className={`flex items-center justify-center gap-2 before:ease relative w-[300px] h-20 overflow-hidden border text-white shadow-2xl transition-all before:absolute before:right-0 before:top-0 before:h-12 before:w-6 before:translate-x-12 before:rotate-6 before:bg-white before:opacity-10 before:duration-700 hover:shadow-gray-500 hover:before:-translate-x-40 uppercase rounded-xl px-7 py-3 tracking-wider cursor-pointer font-bold ${
+            className={`flex items-center justify-center gap-2 before:ease relative w-[300px] h-20 overflow-hidden border text-white shadow-2xl transition-all before:absolute before:right-0 before:top-0 before:h-20 before:w-6 before:translate-x-12 before:rotate-6 before:bg-white before:opacity-10 before:duration-700 hover:shadow-gray-500 hover:before:-translate-x-80 uppercase rounded-xl px-7 py-3 tracking-wider cursor-pointer font-bold ${
               activeTab === "tab6"
                 ? "bg-redest-dark border-redest-dark"
                 : "bg-blue-dark border-[#d4ba97] hover:text-gray-800/90"

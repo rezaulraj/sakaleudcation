@@ -145,7 +145,7 @@ const Testimonial = () => {
     },
   ];
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 bg-[#d4ba97]">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 bg-[#d4ba97] my-16">
       <div className="bg-redest-dark px-2 md:px-16 py-10 text-white space-y-8">
         <div className="space-y-4">
           <h3 className="text-2xl font-semibold font-quicksand tracking-widest">
@@ -198,13 +198,13 @@ const Testimonial = () => {
         >
           {textCarousel.map((text) => (
             <SwiperSlide key={text.id}>
-              <div className="bg-white py-4 rounded-lg shadow-lg h-[500px] flex flex-col overflow-hidden">
+              <div className="bg-white py-4 rounded-lg shadow-lg h-[510px] md:h-[460px] flex flex-col overflow-hidden">
                 <div className="p-4 flex flex-col h-full">
                   <h3 className="font-bold text-lg mb-4 text-center font-quicksand">
                     {text.texth}
                   </h3>
                   <ul
-                    className="space-y-3 flex-grow overflow-y-auto px-4"
+                    className="space-y-3 flex-grow overflow-y-auto px-4 flex flex-col items-center justify-center"
                     style={{ listStyleType: "square" }}
                   >
                     <li className="text-md font-semibold text-gray-800 font-quicksand marker:text-blue-dark">
@@ -227,8 +227,8 @@ const Testimonial = () => {
         </Swiper>
 
         {/* Navigation Buttons */}
-        <div className="swiper-button-prev bg-white/60 p-2 rounded-full w-16 h-16 shadow-md text-[#d01c1f] hover:bg-gray-100"></div>
-        <div className="swiper-button-next bg-white/60 p-2 rounded-full shadow-md text-[#d01c1f] hover:bg-gray-100"></div>
+        <div className="swiper-button-prev rounded-full w-16 h-16 shadow-md text-[#d01c1f] bg-transparent"></div>
+        <div className="swiper-button-next rounded-full shadow-md text-[#d01c1f] bg-transparent"></div>
       </div>
     </div>
   );
