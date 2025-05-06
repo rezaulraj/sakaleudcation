@@ -1,14 +1,12 @@
 import React, { useState } from "react";
 import frontImg from "../../assets/home/frontimg.webp";
 import subfront from "../../assets/home/subimage.webp";
-import img1 from "../../assets/home/Group_1.webp";
-import img2 from "../../assets/home/Group_2.webp";
-import img3 from "../../assets/home/Group_3.webp";
-import img4 from "../../assets/home/Group_4.webp";
-import img5 from "../../assets/home/Group_5.webp";
-import { motion } from "framer-motion";
+import img1 from "../../assets/home/Cypras.jpg";
+import img2 from "../../assets/home/Malta.jpg";
+import img3 from "../../assets/home/Romania.jpg";
+import img4 from "../../assets/home/Russia.jpg";
+import img5 from "../../assets/home/Hungry.jpg";
 import { useTranslation } from "react-i18next";
-import { BiSearch } from "react-icons/bi";
 import Stats from "./Stats";
 import Objective from "./Objective";
 import Universitys from "./Universitys";
@@ -16,7 +14,6 @@ import Testimonial from "./Testimonial";
 import ProgramsTab from "./ProgramsTab";
 import Carusel from "./Carusel";
 import { FaArrowRight, FaPlaneDeparture } from "react-icons/fa";
-import { GiPathDistance } from "react-icons/gi";
 import { GrServices } from "react-icons/gr";
 const HomePage = () => {
   const { t } = useTranslation();
@@ -24,18 +21,23 @@ const HomePage = () => {
   const imgs = [
     {
       img: img1,
+      text: "Cypras",
     },
     {
       img: img2,
+      text: "Malta",
     },
     {
       img: img3,
+      text: "Romania",
     },
     {
       img: img4,
+      text: "Russia",
     },
     {
       img: img5,
+      text: "Hungry",
     },
   ];
 
@@ -149,7 +151,7 @@ const HomePage = () => {
             >
               <span className="flex items-center gap-2">
                 {t("home.third.btn3")}
-                <GrServices  className="animate-spin"/>
+                <GrServices className="animate-spin" />
               </span>
             </button>
           </div>
@@ -162,7 +164,7 @@ const HomePage = () => {
                   {imgs.map((item, inx) => (
                     <div
                       key={inx}
-                      className={` hover:scale-105 transition-transform duration-500
+                      className={` hover:scale-105 transition-transform duration-500 relative
             ${
               inx < 3 ? "lg:col-span-2" : ""
             }  // First 3 items take 2 columns each in lg view
@@ -175,8 +177,11 @@ const HomePage = () => {
                       <img
                         src={item.img}
                         alt="image"
-                        className="w-full h-full object-cover"
+                        className="w-full h-full object-cover rounded-4xl"
                       />
+                      <p className="absolute top-4 left-5 text-white text-lg tracking-widest font-semibold font-quicksand">
+                        {item.text}
+                      </p>
                     </div>
                   ))}
                 </div>
